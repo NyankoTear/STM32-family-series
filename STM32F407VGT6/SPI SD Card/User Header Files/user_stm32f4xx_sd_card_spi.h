@@ -122,7 +122,7 @@ typedef struct{
 } StructSPIModeR3Format;
 
 /** 
- * The CSD Register Fiedls (CSD Version 1.0 and 2.0)
+ * The CSD Register Fields (CSD Version 1.0 and 2.0)
  */
 
 // Refer to see p.162 5.2 CID register
@@ -179,7 +179,7 @@ typedef struct{
   volatile uint8_t  Reserved5           : 6;    //  Reserved(000000b).
 
   volatile uint8_t  CSD_STRUCTURE       : 2;    //  CSD structure.
-}StructCSDRegisterVer1;
+} StructCSDRegisterVer1;
 
 typedef struct{
   volatile uint8_t  NotUsedBit          : 1;    //  Not used, always '1'
@@ -219,7 +219,7 @@ typedef struct{
   volatile uint8_t  Reserved6           : 6;    //  Reserved(000000b).
 
   volatile uint8_t  CSD_STRUCTURE       : 2;    //  CSD structure.
-}StructCSDRegisterVer2;
+} StructCSDRegisterVer2;
 
 /*  CSD register structure  */
 typedef enum{
